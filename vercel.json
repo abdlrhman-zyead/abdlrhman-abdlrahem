@@ -1,21 +1,10 @@
 {
   "version": 3,
-  "builds": [
-    {
-      "src": "package.json",
-      "use": "@vercel/next"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/$1"
-    }
-  ],
+  "framework": "nextjs",
   "functions": {
-    "app/page.tsx": {
-      "maxDuration": 30
+    "api/**/*.ts": {
+      "maxDuration": 30,
+      "memory": 1024
     }
-  },
-  "outputDirectory": ".next"
+  }
 }

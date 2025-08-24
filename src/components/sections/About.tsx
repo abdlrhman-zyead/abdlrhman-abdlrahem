@@ -42,7 +42,7 @@ export default function About() {
                 Who I Am
               </h3>
               <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-                I'm Abdelrhman, an AI Engineer and Software Developer with a passion for 
+                I&apos;m Abdelrhman, an AI Engineer and Software Developer with a passion for 
                 building intelligent systems that solve real-world problems. With expertise 
                 in machine learning, web development, and cloud technologies, I create 
                 innovative solutions that bridge the gap between cutting-edge AI and 
@@ -58,7 +58,7 @@ export default function About() {
               <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
                 To leverage artificial intelligence and modern software engineering 
                 practices to build scalable, efficient, and user-centric solutions that 
-                drive innovation and create meaningful impact in people's lives.
+                drive innovation and create meaningful impact in people&apos;s lives.
               </p>
             </div>
           </motion.div>

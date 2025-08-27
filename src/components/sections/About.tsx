@@ -5,9 +5,9 @@ import { User, Award, Target } from "lucide-react";
 
 export default function About() {
   const stats = [
-    { label: "Years Experience", value: "5+" },
-    { label: "Projects Completed", value: "50+" },
-    { label: "Happy Clients", value: "30+" },
+    { label: "Years Experience", value: "1" },
+    { label: "Projects Completed", value: "2+" },
+    { label: "Happy Clients", value: "" },
   ];
 
   return (
